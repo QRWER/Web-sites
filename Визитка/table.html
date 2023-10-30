@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Таблица</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="card.html" class="page"> Основная страница </a>
+            <a href="page2.html" class="page"> Позиционирование элементов </a>
+            <a href="table.html" class="page"> Таблица </a>
+        </div>
+        <table>
+            <caption class="">Вечные мемы</caption>
+            <tr>
+                <th>#</th>
+                <th>Мем</th>
+                <th>Год</th>
+                <th>Первоисточник</th>
+                <th>Потребитель</th>
+                <th>Локальность</th>
+                <th>Оценка</th>
+                <th>Пример</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Рыбацкий клуб</td>
+                <td>2022</td>
+                <td>6106-010302D</td>
+                <td>Студенты группы 6106-010302D</td>
+                <td>999999</td>
+                <td>8.5/10</td>
+                <td><img src="./images/Рыбацкий_клуб.jpg" alt="Рыбаки" class="example"></td>
+               
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SolEk</td>
+                <td>2014</td>
+                <td>Турнир StarLadder StarSeries Season 10</td>
+                <td>Игроки в Counter-Strike</td>
+                <td>2613</td>
+                <td>9/10</td>
+                <td><img src="./images/Solek.jpeg" alt="Сооооолеееек" class="example"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Лол/Кек</td>
+                <td>2004</td>
+                <td>игра World of Warcraft</td>
+                <td>Все люди младше 50 лет</td>
+                <td>5</td>
+                <td>4/10</td>
+                <td><img src="./images/lol.jpg" alt="лол" class="example"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Котики</td>
+                <td>7500 год до н.э.</td>
+                <td>Планета Земля</td>
+                <td>Все люди</td>
+                <td>1</td>
+                <td>100/10</td>
+                <td><img src="./images/he-he.png" alt="Мои любимые котики" class="example"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>THIS IS FINE</td>
+                <td>2013</td>
+                <td>Комикс от KC Green</td>
+                <td>В нынешнее время почти не используется</td>
+                <td>278</td>
+                <td>7.8/10</td>
+                <td><img src="./images/fine.jpg" alt="Ну ладно" class="example"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Наполеон</td>
+                <td>2023</td>
+                <td>TikTok</td>
+                <td>Люди в возрасте от 16 до 35</td>
+                <td>354</td>
+                <td>9/10</td>
+                <td><img src="./images/Наполеон.jpg" alt="we can do there is nothing" class="example"></td>
+            </tr>
+        </table>
+        <form id="NewRow">
+            <fieldset>
+                <div class="tag">
+                    <label for="name" style="position: relative; left: 0px;">Название мема:</label>
+                    <label for="year" style="position: relative; left: 98px;">Год создания:</label>
+                    <label for="firstline" style="position: relative; left: 210px;">Первоисточник:</label>
+                    <label for="user" style="position: relative; left: 302px;">Потребитель:</label>
+                    <label for="local" style="position: relative; left: 415px;">Локальность:</label>
+                    <label for="score" style="position: relative; left: 530px;">Оценка:</label>
+                    <label for="example_mem" style="position: relative; left: 693px;">Пример мема:</label><br>
+                </div>
+                <div class="space">
+                    <input type="text" id="name" name="name" value="Тута">
+                    <input type="text" id="year" name="year" value="Сюда">
+                    <input type="text" id="firstline" name="firstline" value="Тудым">
+                    <input type="text" id="user" name="user" value="Сюдым">
+                    <input type="text" id="local" name="local" value="Туть">
+                    <input type="text" id="score" name="score" value="Сють">
+                    <input type="file" id="example_mem" name="example_mem" accept=".jpg,.jpeg,.png">
+                    <input type="submit" value="Закинуть"><br>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
