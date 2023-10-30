@@ -1,0 +1,18 @@
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#info {
+    border: 1px solid rgba(152, 152, 152, 0.421);
+    margin: 2px;
+    padding: 5px;
+}
+
+#collapsibleNavbar {
+    display: flex;
+    justify-content: end;
+}
